@@ -400,13 +400,12 @@ body {
 }
 
 .hero-name {
-    font-size: 52px;
+    font-size: clamp(36px, 5vw, 56px);
     font-weight: 400;
     line-height: 1.1;
     color: var(--primary);
     letter-spacing: -0.02em;
     margin-bottom: 32px;
-    white-space: nowrap;
 }
 
 .hero-subtitle {
@@ -985,10 +984,7 @@ a.hero-contact-item:hover {
         padding: 32px;
     }
     
-    .hero-name {
-        font-size: 44px;
-        white-space: normal;
-    }
+
     
     .hero-subtitle {
         font-size: 20px;
@@ -1011,7 +1007,6 @@ a.hero-contact-item:hover {
     }
     
     .hero-name {
-        font-size: 36px;
         margin-bottom: 24px;
     }
     
@@ -1043,6 +1038,14 @@ a.hero-contact-item:hover {
     }
     
     .project-item {
+        padding: 24px;
+    }
+    
+    .education-card {
+        padding: 24px;
+    }
+    
+    .contact-card {
         padding: 24px;
     }
     
